@@ -29,11 +29,18 @@
   flex-shrink: 0;
 }
 
-.border {
+.main_box {
+  width: 333px;
+  height: 485px;
   border-radius: 20px;
   border: 0.5px solid rgba(255, 255, 255, 0.20);
   background: #14171A;
   backdrop-filter: blur(5px);
+}
+
+.inBox {
+  width: 303px;
+  height: 77px;
 }
 
 .bg-text {
