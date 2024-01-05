@@ -1,3 +1,27 @@
+.container {
+  margin:0 21px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: url('https://s3-alpha-sig.figma.com/img/e586/a087/4186e903797f0ee79a418acb03188387?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D48qj8t26KIJFzjNA0j5yTA1Hz~khh4J~NwNfn1PfiRhHMKrPIY-925r7Odrf2dI4-Tm~gok6UaQW-eMFBRxLn7C5eMn7lci30KSbUx-exkZMlARswKfadnEfrNRnxHkVekJh3ONlsGkxv3xKQlox8YpCmQyLROtvBRLNzOrrcf042qBUUnY8NIJ5mw6dsugPbXXaLv8C0Bqk6lstEMztNijwvFQg-ZDp4R86IhjUtJEfmR-LkyMJkhTkmGPy6NRSZMl8fuZ4MfAmjgPf~1rzKXpEMHbvD7ozSp5nWwx-5x~MM~5DJhN8O3mTZeItnQegMLuSFfMS01yCZa7Ob0uPw__')  center center no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+.nav {
+  display: flex;
+}
+
 .image-container {
   width: 30px;
   height: 30px;
@@ -22,12 +46,6 @@
   letter-spacing: 1.32px;
   opacity: 0.5;
 }
-
-.romb {
-  left:11px;
-  top:18px;
-}
-
 
 @mixin font-size($size) {
   font-size: $size;
